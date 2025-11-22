@@ -1,5 +1,4 @@
-menu "AESD Project Base External Packages"
-
-source "$BR2_EXTERNAL_PROJECT_BASE_PATH/package/aesd-assignments/Config.in"
-
+menu "AESD Project Packages"
+    source "$BR2_EXTERNAL_AESD_PATH/package/aesd-assignments/Config.in"
 endmenu
+
